@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration scan="true" scanPeriod="30 seconds">
+
+	<!-- =============================================================== -->
+	<!-- console -->
+	<!-- =============================================================== -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>[%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{5}][%L] - %m%n</Pattern>
+        </layout>
+    </appender>
+
+	<!-- =============================================================== -->
+	<!-- DEBUG > INFO > WARN > ERROR > FATAL -->
+	<!-- =============================================================== -->
+	<root level="INFO">
+		<appender-ref ref="CONSOLE" />
+	</root>
+
+</configuration>

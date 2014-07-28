@@ -1,0 +1,3 @@
+
+배포 클라이언트 실행 방법
+java -jar Deployment-Client.jar uploadURL=http://localhost:8080/file/upload uploadFile=C:\Users\nklee\Desktop\war\test.txt,C:\Users\nklee\Desktop\war\test1.txt command=ping commandArg=yahoo.co.kr
