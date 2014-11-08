@@ -26,8 +26,8 @@ import com.plaync.nshop.model.FileUploadForm;
 /**
  * @FileName : FileUploadController.java
  * @Project : Deployment-Server
- * @Date : 2014. 6. 27.
- * @작성자 : nklee
+ * @Date : 2014. 7. 27.
+ * @작성자 : yhkim
  * @프로그램설명 :
  */
 @Slf4j
