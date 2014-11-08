@@ -22,8 +22,8 @@ import com.plaync.nshop.deployment.client.vo.ParamData;
 /**
  * @FileName : WarFileSender.java
  * @Project : Deployment-Client
- * @Date : 2014. 6. 30.
- * @작성자 : nklee
+ * @Date : 2014. 7. 30.
+ * @작성자 : yhkim
  * @프로그램설명 :
  */
 @Slf4j
